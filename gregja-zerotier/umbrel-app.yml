@@ -1,0 +1,30 @@
+manifestVersion: 1
+id: gregja-zerotier-one
+name: Zerotier One
+tagline: zerotier
+icon: https://46233949.fs1.hubspotusercontent-na1.net/hubfs/46233949/Downloads/Brand/ZeroTier%20Icon%20Gold%20and%20Black.svg
+category: Development
+version: "1.0.0"
+port: 4000
+description: >-
+  Zerotier.
+
+
+  You can also add newlines!
+
+developer: gregja1974
+website: https://zerotier.com
+submitter: gregja1974
+submission: https://github.com/getumbrel/umbrel-hello-world-app
+repo: https://github.com/gregja-umbrel-app-store
+support: https://github.com/gregja-umbrel-app-store
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  Initial release.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

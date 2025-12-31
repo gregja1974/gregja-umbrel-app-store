@@ -1,0 +1,18 @@
+version: '3'
+services:
+  zerotier:
+    image: zyclonite/zerotier:latest # Or another image like zerotier/zerotier
+    container_name: zerotier-one
+    devices:
+      - /dev/net/tun # Required for network tunneling
+    network_mode: host # Allows direct network access
+    volumes:
+      - ${APP_DATA_DIR}:/var/lib/zerotier-one # Persistent storage for config and identity
+    cap_add:
+      - NET_ADMIN # Required for network administration
+      - SYS_ADMIN # Required for some system administration tasks
+    environment:
+      # Optional: Uncomment and set your network ID to auto-join a network on first launch
+      - ZEROTIER_ONE_NETWORK_IDS=af78bf9436ac72f4
+      - TZ=Australia/Sydney # Set your timezone
+    restart: unless-stopped

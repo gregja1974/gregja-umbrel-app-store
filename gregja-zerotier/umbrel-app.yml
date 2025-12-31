@@ -4,7 +4,7 @@ name: Zerotier
 tagline: zerotier
 icon: https://46233949.fs1.hubspotusercontent-na1.net/hubfs/46233949/Downloads/Brand/ZeroTier%20Icon%20Gold%20and%20Black.svg
 category: Development
-version: "0.0.3"
+version: "0.0.4"
 # port: 4000
 description: >-
   Zerotier.
@@ -14,7 +14,7 @@ submitter: gregja1974
 submission: https://github.com/getumbrel/umbrel-hello-world-app
 repo: https://github.com/zyclonite/zerotier-docker
 support: https://github.com/gregja-umbrel-app-store
-gallery:
+# gallery:
 releaseNotes: >-
   Initial release. Run 'zerotier-cli join <Network ID> from the terminal after install 
 dependencies: []

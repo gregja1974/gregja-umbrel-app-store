@@ -13,6 +13,6 @@ services:
       - SYS_ADMIN # Required for some system administration tasks
     environment:
       # Optional: Uncomment and set your network ID to auto-join a network on first launch
-      # - ZEROTIER_ONE_NETWORK_IDS=af78bf9436ac72f4
+      # - ZEROTIER_ONE_NETWORK_IDS=
       - TZ=Australia/Sydney # Set your timezone
     restart: unless-stopped

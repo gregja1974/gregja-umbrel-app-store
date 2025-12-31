@@ -2,12 +2,12 @@ version: '3'
 services:
   zerotier:
     image: zyclonite/zerotier:latest # Or another image like zerotier/zerotier
-    container_name: zerotier-one
+    container_name: zerotier
     devices:
       - /dev/net/tun # Required for network tunneling
     network_mode: host # Allows direct network access
     volumes:
-      - ${APP_DATA_DIR}:/var/lib/zerotier-one # Persistent storage for config and identity
+      - ${APP_DATA_DIR}/zerotier-one:/var/lib/zerotier-one # Persistent storage for config and identity
     cap_add:
       - NET_ADMIN # Required for network administration
       - SYS_ADMIN # Required for some system administration tasks

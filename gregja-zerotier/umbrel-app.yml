@@ -4,7 +4,7 @@ name: Zerotier
 tagline: zerotier
 icon: https://46233949.fs1.hubspotusercontent-na1.net/hubfs/46233949/Downloads/Brand/ZeroTier%20Icon%20Gold%20and%20Black.svg
 category: Development
-version: "0.0.1"
+version: "0.0.2"
 # port: 4000
 description: >-
   Zerotier.

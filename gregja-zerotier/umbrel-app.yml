@@ -16,7 +16,7 @@ repo: https://github.com/zyclonite/zerotier-docker
 support: https://github.com/gregja-umbrel-app-store
 gallery:
 releaseNotes: >-
-  Initial release.
+  Initial release. Run 'zerotier-cli join <Network ID> from the terminal after install 
 dependencies: []
 path: ""
 defaultUsername: ""
